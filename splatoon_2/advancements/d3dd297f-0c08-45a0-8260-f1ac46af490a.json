@@ -1,0 +1,129 @@
+{
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-09-24 20:00:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-09-24 20:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-09-24 20:15:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-24 20:09:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-09-24 20:15:09 +0200"
+    },
+    "done": true
+  },
+  "splatcraft:story/change_ink_color": {
+    "criteria": {
+      "changed_color": "2025-09-24 20:01:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-09-24 20:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-09-24 20:00:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-09-24 20:15:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-09-24 20:15:09 +0200"
+    },
+    "done": true
+  },
+  "splatcraft:recipes/splatcraft_general/remote_pedestal": {
+    "criteria": {
+      "has_remote": "2025-09-24 20:56:21 +0200"
+    },
+    "done": true
+  },
+  "splatcraft:story/every_ink_color": {
+    "criteria": {
+      "orange": "2025-09-24 20:01:17 +0200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-09-24 20:17:14 +0200"
+    },
+    "done": true
+  },
+  "splatcraft:story/turf_war_won": {
+    "criteria": {
+      "scan_turf": "2025-09-24 20:36:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-09-24 20:00:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-09-24 20:15:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-09-24 20:15:09 +0200"
+    },
+    "done": true
+  },
+  "splatcraft:story/turf_war_ruler": {
+    "criteria": {
+      "scan_turf": "2025-09-24 20:54:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-09-24 20:00:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-09-24 19:58:44 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-09-24 20:43:55 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

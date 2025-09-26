@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "61ec0d1b-0dc2-45bd-930e-ab45bcaa4386",
+    "name": "Athro_Hiro",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
