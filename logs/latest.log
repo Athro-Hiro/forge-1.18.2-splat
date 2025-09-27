@@ -1,41 +1,37 @@
-[26Sept.2025 19:03:02.175] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.3.11, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[26Sept.2025 19:03:02.191] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.8 by Oracle Corporation
-[26Sept.2025 19:03:02.394] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/games/minecraft_server_1-18-2_splatcraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
-[26Sept.2025 19:03:02.878] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\fmlcore\1.18.2-40.3.11\fmlcore-1.18.2-40.3.11.jar is missing mods.toml file
-[26Sept.2025 19:03:02.892] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.3.11\javafmllanguage-1.18.2-40.3.11.jar is missing mods.toml file
-[26Sept.2025 19:03:02.892] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.3.11\lowcodelanguage-1.18.2-40.3.11.jar is missing mods.toml file
-[26Sept.2025 19:03:02.907] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\mclanguage\1.18.2-40.3.11\mclanguage-1.18.2-40.3.11.jar is missing mods.toml file
-[26Sept.2025 19:03:03.173] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[26Sept.2025 19:03:05.027] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[26Sept.2025 19:03:07.203] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0).
-[26Sept.2025 19:03:18.565] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.3.11, for MC 1.18.2 with MCP 20220404.173914
-[26Sept.2025 19:03:18.637] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.3.11 Initialized
-[26Sept.2025 19:03:22.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Sept.2025 19:03:24.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 40.3.11 Target: null
-[26Sept.2025 19:03:24.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [splatcraft] Starting version check at https://api.modrinth.com/updates/splatcraft/forge_updates.json
-[26Sept.2025 19:03:25.003] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [splatcraft] Found status: UP_TO_DATE Current: 4.0.1-1.18.2 Target: null
-[26Sept.2025 19:03:25.592] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Sept.2025 19:03:25.794] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-essential (version 1.3.9.1 -> MISSING)
-Things may not work well.
-[26Sept.2025 19:03:27.354] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/games/minecraft_server_1-18-2_splatcraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2342!/assets/.mcassetsroot' uses unexpected schema
-[26Sept.2025 19:03:27.380] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/games/minecraft_server_1-18-2_splatcraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2342!/data/.mcassetsroot' uses unexpected schema
-[26Sept.2025 19:03:27.575] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:essential
-[26Sept.2025 19:03:30.937] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Sept.2025 19:03:30.953] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Sept.2025 19:03:30.979] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[26Sept.2025 19:03:30.987] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[26Sept.2025 19:03:31.027] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Sept.2025 19:03:31.062] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [inkcolor, color] and [inkcolor, stage] with inputs: [blue, 4234555]
-[26Sept.2025 19:03:31.117] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [scanturf, from] and [scanturf, stage] with inputs: [0 0 0]
-[26Sept.2025 19:03:31.151] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [clearink, from] and [clearink, stage] with inputs: [0 0 0]
-[26Sept.2025 19:03:31.184] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [replacecolor, from] and [replacecolor, stage] with inputs: [0 0 0]
-[26Sept.2025 19:03:31.199] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [replacecolor, stage, color, only, affectedColor] and [replacecolor, stage, color, only, affectedTeam] with inputs: [blue, 4234555]
-[26Sept.2025 19:03:31.221] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [replacecolor, stage, color, keep, affectedColor] and [replacecolor, stage, color, keep, affectedTeam] with inputs: [blue, 4234555]
-[26Sept.2025 19:03:31.251] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [stage, settings, stage, cornerA] and [stage, settings, stage, setting] with inputs: [cornerA]
-[26Sept.2025 19:03:31.316] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [stage, settings, stage, cornerB] and [stage, settings, stage, setting] with inputs: [cornerB]
-[26Sept.2025 19:03:36.898] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[26Sept.2025 19:03:38.593] [Worker-Main-6/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function splatoon:temp/items
+[26Sept.2025 20:31:57.766] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.3.11, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[26Sept.2025 20:31:57.781] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.8 by Oracle Corporation
+[26Sept.2025 20:31:57.991] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/games/minecraft_server_1-18-2_splatcraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[26Sept.2025 20:31:58.444] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\fmlcore\1.18.2-40.3.11\fmlcore-1.18.2-40.3.11.jar is missing mods.toml file
+[26Sept.2025 20:31:58.463] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.3.11\javafmllanguage-1.18.2-40.3.11.jar is missing mods.toml file
+[26Sept.2025 20:31:58.463] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.3.11\lowcodelanguage-1.18.2-40.3.11.jar is missing mods.toml file
+[26Sept.2025 20:31:58.463] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\games\minecraft_server_1-18-2_splatcraft\libraries\net\minecraftforge\mclanguage\1.18.2-40.3.11\mclanguage-1.18.2-40.3.11.jar is missing mods.toml file
+[26Sept.2025 20:31:58.744] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[26Sept.2025 20:32:00.795] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Sept.2025 20:32:02.842] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0).
+[26Sept.2025 20:32:14.295] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.3.11, for MC 1.18.2 with MCP 20220404.173914
+[26Sept.2025 20:32:14.313] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.3.11 Initialized
+[26Sept.2025 20:32:17.780] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Sept.2025 20:32:19.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 40.3.11 Target: null
+[26Sept.2025 20:32:19.513] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [splatcraft] Starting version check at https://api.modrinth.com/updates/splatcraft/forge_updates.json
+[26Sept.2025 20:32:19.903] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [splatcraft] Found status: UP_TO_DATE Current: 4.0.1-1.18.2 Target: null
+[26Sept.2025 20:32:20.867] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Sept.2025 20:32:22.441] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/games/minecraft_server_1-18-2_splatcraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2342!/assets/.mcassetsroot' uses unexpected schema
+[26Sept.2025 20:32:22.490] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/games/minecraft_server_1-18-2_splatcraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2342!/data/.mcassetsroot' uses unexpected schema
+[26Sept.2025 20:32:25.983] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[26Sept.2025 20:32:26.001] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[26Sept.2025 20:32:26.025] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[26Sept.2025 20:32:26.042] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[26Sept.2025 20:32:26.045] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[26Sept.2025 20:32:26.093] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [inkcolor, color] and [inkcolor, stage] with inputs: [blue, 4234555]
+[26Sept.2025 20:32:26.155] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [scanturf, from] and [scanturf, stage] with inputs: [0 0 0]
+[26Sept.2025 20:32:26.186] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [clearink, from] and [clearink, stage] with inputs: [0 0 0]
+[26Sept.2025 20:32:26.236] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [replacecolor, from] and [replacecolor, stage] with inputs: [0 0 0]
+[26Sept.2025 20:32:26.308] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [replacecolor, stage, color, only, affectedColor] and [replacecolor, stage, color, only, affectedTeam] with inputs: [blue, 4234555]
+[26Sept.2025 20:32:26.376] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [replacecolor, stage, color, keep, affectedColor] and [replacecolor, stage, color, keep, affectedTeam] with inputs: [blue, 4234555]
+[26Sept.2025 20:32:26.437] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [stage, settings, stage, cornerA] and [stage, settings, stage, setting] with inputs: [cornerA]
+[26Sept.2025 20:32:26.488] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [stage, settings, stage, cornerB] and [stage, settings, stage, setting] with inputs: [cornerB]
+[26Sept.2025 20:32:32.154] [Worker-Main-6/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[26Sept.2025 20:32:34.109] [Worker-Main-6/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function splatoon:temp/items
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 48: ..._main run <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) [?:?]
@@ -51,47 +47,46 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.m_179934_(ServerFunctionLibrary.java:85) ~[server-1.18.2-20220404.173914-srg.jar%2342!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[26Sept.2025 19:03:38.840] [Worker-Main-6/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1270 advancements
-[26Sept.2025 19:03:41.681] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
-[26Sept.2025 19:03:41.682] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[26Sept.2025 19:03:41.683] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[26Sept.2025 19:03:41.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Sept.2025 19:03:41.993] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[26Sept.2025 19:03:42.066] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[26Sept.2025 19:03:42.468] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "splatoon_2"
-[26Sept.2025 19:03:42.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Sept.2025 19:03:45.474] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:45.567] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:45.569] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:45.587] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:45.598] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:45.605] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:45.859] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:46.356] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:46.857] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:47.432] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:47.874] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:48.357] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Sept.2025 19:03:48.858] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[26Sept.2025 19:03:49.356] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[26Sept.2025 19:03:49.856] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[26Sept.2025 19:03:50.366] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[26Sept.2025 19:03:50.911] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[26Sept.2025 19:03:51.383] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[26Sept.2025 19:03:51.856] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[26Sept.2025 19:03:52.356] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[26Sept.2025 19:03:53.301] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10446 ms
-[26Sept.2025 19:03:53.312] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.966s)! For help, type "help"
-[26Sept.2025 19:03:53.342] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Sept.2025 19:04:37.365] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Athro_Hiro is 61ec0d1b-0dc2-45bd-930e-ab45bcaa4386
-[26Sept.2025 19:04:38.670] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@34d0d269
-[26Sept.2025 19:04:38.734] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Athro_Hiro[/192.168.179.61:53048] logged in with entity id 13 at (91.16658261363666, 34.0, 199.33814858282187)
-[26Sept.2025 19:04:38.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Athro_Hiro joined the game
-[26Sept.2025 19:06:41.326] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Athro_Hiro> 60 30 260
-[26Sept.2025 19:07:23.450] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made Athro_Hiro a server operator
-[26Sept.2025 19:07:43.249] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Athro_Hiro: Successfully filled 19602 blocks]
-[26Sept.2025 19:08:25.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Athro_Hiro: Set own game mode to Adventure Mode]
-[26Sept.2025 19:08:26.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Athro_Hiro: Set own game mode to Survival Mode]
-[26Sept.2025 19:08:27.576] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Athro_Hiro: Set own game mode to Creative Mode]
-[26Sept.2025 19:33:04.181] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Athro_Hiro lost connection: Disconnected
-[26Sept.2025 19:33:04.183] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Athro_Hiro left the game
+[26Sept.2025 20:32:34.344] [Worker-Main-6/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1270 advancements
+[26Sept.2025 20:32:37.273] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[26Sept.2025 20:32:37.284] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Sept.2025 20:32:37.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Sept.2025 20:32:37.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Sept.2025 20:32:37.504] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Sept.2025 20:32:37.563] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[26Sept.2025 20:32:37.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "splatoon_2"
+[26Sept.2025 20:32:38.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Sept.2025 20:32:41.176] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:41.230] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:41.258] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:41.283] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:41.370] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:41.391] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:41.405] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:41.819] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:42.320] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:42.817] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:43.347] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Sept.2025 20:32:43.814] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[26Sept.2025 20:32:44.316] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[26Sept.2025 20:32:44.816] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[26Sept.2025 20:32:45.317] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[26Sept.2025 20:32:45.878] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[26Sept.2025 20:32:46.314] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[26Sept.2025 20:32:47.035] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[26Sept.2025 20:32:47.345] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[26Sept.2025 20:32:47.815] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[26Sept.2025 20:32:48.959] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10645 ms
+[26Sept.2025 20:32:48.960] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.067s)! For help, type "help"
+[26Sept.2025 20:32:49.006] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Sept.2025 20:33:15.178] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[26Sept.2025 20:33:15.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Sept.2025 20:33:15.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Sept.2025 20:33:15.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Sept.2025 20:33:16.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[SPLATOON 2]'/minecraft:overworld
+[26Sept.2025 20:33:16.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[SPLATOON 2]'/minecraft:the_end
+[26Sept.2025 20:33:16.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[SPLATOON 2]'/minecraft:the_nether
+[26Sept.2025 20:33:16.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (splatoon_2): All chunks are saved
+[26Sept.2025 20:33:16.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Sept.2025 20:33:16.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Sept.2025 20:33:16.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
