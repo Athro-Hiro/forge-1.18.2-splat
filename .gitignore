@@ -1,2 +1,6 @@
-splatoon_2
+splatoon_2/
 *.zip
+logs/
+usercache.json
+*.dat
+*.mca
