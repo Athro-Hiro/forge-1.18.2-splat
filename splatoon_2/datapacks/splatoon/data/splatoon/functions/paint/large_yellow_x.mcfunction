@@ -1,1 +1,0 @@
-fill ~-0.5 ~ ~-1 ~0.5 ~-1 ~1 yellow_wool replace #minecraft:wool
